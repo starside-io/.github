@@ -5,26 +5,18 @@
 
 Welcome to **Starside Labs** - where we're democratizing artificial intelligence through powerful, accessible open source tooling and frameworks! 
 
-### 🎯 Our Mission
-We're a collective of open source enthusiasts and AI experts dedicated to breaking down barriers to AI adoption. Our goal is simple: make AI transformation accessible to everyone, not just tech giants.
-
-### 🛠️ What We Build
-We create comprehensive open source solutions that any organization can implement, customize, and scale:
-
-🔧 **Open Source AI Frameworks** - Simplifying AI integration for everyone  
-🤝 **Community-Driven Tools** - Collaborative platforms for custom AI solutions  
-📚 **Open Learning Resources** - Comprehensive docs, tutorials, and training materials  
-🔗 **Ecosystem Integration** - Building bridges between existing tools and emerging AI tech  
-
 ### 🏗️ Featured Projects
 
-| Project | Status | Description |
-|---------|--------|-------------|
-| 📊 **Trello MCP** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | Trello MCP to allow real time interaction with boards, lists, cards for LLMs. |
+| Project | Status | Description | Link |
+|---------|--------|-------------|------|
+| 📊 **Trello MCP** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | Trello MCP to allow real time interaction with boards, lists, cards for LLMs. | [VISIT](https://github.com/starside-io/trello-mcp) |
+| 📝 **LLMS.txt Generator** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | A web-based tool to help you create llms.txt. | [VISIT](https://starside-io.github.io/llmstxt-generator/) |
+| 🥚 **Easter Egg Generator** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | A fun CLI tool built with TypeScript that generates JavaScript easter eggs for your website! | [VISIT](https://github.com/starside-io/easter-egg-generator) |
+
 
 ### 📈 Community Impact
 
-🎪 **1+** Open Source Projects  
+🎪 **3+** Open Source Projects  
 🔌 **63+** Clones
 
 ### 🌐 Connect With Us
@@ -41,16 +33,3 @@ Ready to contribute to the future of open source AI tooling? We welcome:
 - 📖 **Documentation** enhancements
 - 💡 **Ideas** for new projects and integrations
 - 🎤 **Community engagement** and feedback
-
-### 🚀 Quick Start
-
-1. **Explore** our repositories and find a project that interests you
-2. **Read** the contributing guidelines in each repository
-3. **Join** our community discussions
-4. **Start** contributing and help us transform the future of AI!
-
----
-
-*Building the foundation for a future where AI transformation is accessible to everyone* 🌟
-
-**Starside Labs** - *Transforming the future through AI* ✨
