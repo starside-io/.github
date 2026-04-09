@@ -12,6 +12,7 @@ Welcome to **Starside Labs** - where we're democratizing artificial intelligence
 | 📊 **Trello MCP** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | Trello MCP to allow real time interaction with boards, lists, cards for LLMs. | [VISIT](https://github.com/starside-io/trello-mcp) |
 | 📝 **LLMS.txt Generator** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | A web-based tool to help you create llms.txt. | [VISIT](https://starside-io.github.io/llmstxt-generator/) |
 | 🥚 **Easter Egg Generator** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | A fun CLI tool built with TypeScript that generates JavaScript easter eggs for your website! | [VISIT](https://github.com/starside-io/easter-egg-generator) |
+| 🇫🇷 **Langdrift** | ![Alpha](https://img.shields.io/badge/Status-Alpha-red) | Detect cognitive drift in speech translations using TRIBE v2 brain encoding. | [VISIT]([https://github.com/starside-io/easter-egg-generator) |
 
 
 ### 📈 Community Impact
