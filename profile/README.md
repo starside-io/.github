@@ -1,4 +1,4 @@
-<a href="https://starside.io"><img src="./assets/hero.svg?v=1" width="100%" alt="Starside Labs. AI tools for people, not platforms." /></a>
+<a href="https://starside.io"><img src="./assets/hero.svg?v=2" width="100%" alt="Starside Labs. AI tools for people, not platforms." /></a>
 
 <a href="https://starside.io/#tools"><img src="./assets/tools-header.svg?v=1" width="100%" alt="What we build: our tools" /></a>
 

@@ -46,19 +46,19 @@
 <g class="fu" style="animation-delay:0.35s">
 <rect x="36" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
 <rect x="36" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
-<text x="54" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">1.2K+</text>
+<text x="54" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">315K+</text>
 <text x="54" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">ARTICLES INDEXED</text></g><g class="fu" style="animation-delay:0.43s">
 <rect x="229" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
 <rect x="229" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
-<text x="247" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">126+</text>
+<text x="247" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">357</text>
 <text x="247" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">DECKS GENERATED</text></g><g class="fu" style="animation-delay:0.51s">
 <rect x="422" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
 <rect x="422" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
-<text x="440" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">134+</text>
-<text x="440" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">VIDEOS PETRIFIED</text></g><g class="fu" style="animation-delay:0.59s">
+<text x="440" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">17</text>
+<text x="440" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">OPEN SOURCE REPOS</text></g><g class="fu" style="animation-delay:0.59s">
 <rect x="615" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
 <rect x="615" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
-<text x="633" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">14K+</text>
+<text x="633" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">17K+</text>
 <text x="633" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">SIGNATURES COPIED</text></g>
 </g>
 <rect x=".5" y=".5" width="839" height="329" rx="17.5" stroke="url(#edge)"/>
