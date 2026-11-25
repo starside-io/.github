@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="436" viewBox="0 0 840 436" fill="none">
+<style>
+.sans{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif} .mono{font-family:'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.8}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.fu{animation:fadeUp .7s cubic-bezier(.2,.7,.2,1) backwards}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="planet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBC46A"/><stop offset=".45" stop-color="#F7941D"/><stop offset="1" stop-color="#FF2D3D"/></linearGradient>
+  <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBC46A"/><stop offset=".5" stop-color="#F7941D"/><stop offset="1" stop-color="#FF2D3D"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7941D" stop-opacity=".7"/><stop offset=".45" stop-color="#26262B"/><stop offset="1" stop-color="#FF2D3D" stop-opacity=".35"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#FFFFFF" stroke-opacity=".03"/></pattern>
+  <radialGradient id="fadeMask" cx=".75" cy=".1" r=".9"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="gm"><rect width="840" height="436" fill="url(#fadeMask)"/></mask>
+  <filter id="blur" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="60"/></filter>
+  <clipPath id="clip"><rect width="840" height="436" rx="18"/></clipPath>
+  
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="840" height="436" fill="#0E0E10"/>
+  <rect width="840" height="436" fill="url(#grid)" mask="url(#gm)"/>
+  <circle cx="0" cy="436" r="160" fill="#F7941D" opacity=".08" filter="url(#blur)"/>
+<circle cx="840" cy="0" r="140" fill="#FF2D3D" opacity=".12" filter="url(#blur)"/>
+<g class="fu" style="animation-delay:.05s"><text x="36" y="38" class="sans" font-size="11" font-weight="700" letter-spacing="3" fill="#F7941D">WHAT WE STAND FOR</text>
+<text x="36" y="70" class="sans" font-size="26" font-weight="800" letter-spacing="-.8" fill="#F4F4F5">Our <tspan fill="url(#hot)">values</tspan></text></g>
+<g class="fu" style="animation-delay:0.15s">
+<rect x="36" y="96" width="378" height="150" rx="14" fill="#111113" stroke="#26262B"/>
+<rect x="36" y="118" width="3" height="24" rx="1.5" fill="url(#hot)"/>
+<text x="60" y="135" class="mono" font-size="11" fill="#F7941D">01</text>
+<text x="88" y="136" class="sans" font-size="17" font-weight="700" letter-spacing="-.3" fill="#F4F4F5">Democratizing AI</text>
+<text x="60" y="162" class="sans" font-size="13" fill="#A1A1AA">We make artificial intelligence and its uses</text><text x="60" y="181" class="sans" font-size="13" fill="#A1A1AA">available to everyone, not locked away</text><text x="60" y="200" class="sans" font-size="13" fill="#A1A1AA">behind big platforms.</text>
+<line x1="60" y1="214" x2="390" y2="214" stroke="#26262B"/>
+<text x="60" y="233" class="mono" font-size="10.5" fill="#71717A">in practice: <tspan fill="#FBC46A">neurowire daily</tspan></text>
+<text x="390" y="233" text-anchor="end" class="mono" font-size="10.5" fill="#71717A">free, no signup</text></g><g class="fu" style="animation-delay:0.23s">
+<rect x="426" y="96" width="378" height="150" rx="14" fill="#111113" stroke="#26262B"/>
+<rect x="426" y="118" width="3" height="24" rx="1.5" fill="url(#hot)"/>
+<text x="450" y="135" class="mono" font-size="11" fill="#F7941D">02</text>
+<text x="478" y="136" class="sans" font-size="17" font-weight="700" letter-spacing="-.3" fill="#F4F4F5">Open source, always</text>
+<text x="450" y="162" class="sans" font-size="13" fill="#A1A1AA">Powerful tooling and frameworks, all public</text><text x="450" y="181" class="sans" font-size="13" fill="#A1A1AA">and forkable. Read the code, change it,</text><text x="450" y="200" class="sans" font-size="13" fill="#A1A1AA">run your own.</text>
+<line x1="450" y1="214" x2="780" y2="214" stroke="#26262B"/>
+<text x="450" y="233" class="mono" font-size="10.5" fill="#71717A">in practice: <tspan fill="#FBC46A">github.com/starside-io</tspan></text>
+<text x="780" y="233" text-anchor="end" class="mono" font-size="10.5" fill="#71717A">all public</text></g><g class="fu" style="animation-delay:0.31s">
+<rect x="36" y="258" width="378" height="150" rx="14" fill="#111113" stroke="#26262B"/>
+<rect x="36" y="280" width="3" height="24" rx="1.5" fill="url(#hot)"/>
+<text x="60" y="297" class="mono" font-size="11" fill="#F7941D">03</text>
+<text x="88" y="298" class="sans" font-size="17" font-weight="700" letter-spacing="-.3" fill="#F4F4F5">Accessible by design</text>
+<text x="60" y="324" class="sans" font-size="13" fill="#A1A1AA">Built so any person or team can pick it up,</text><text x="60" y="343" class="sans" font-size="13" fill="#A1A1AA">customize it and put it to work, from a</text><text x="60" y="362" class="sans" font-size="13" fill="#A1A1AA">desktop app to a single CLI command.</text>
+<line x1="60" y1="376" x2="390" y2="376" stroke="#26262B"/>
+<text x="60" y="395" class="mono" font-size="10.5" fill="#71717A">in practice: <tspan fill="#FBC46A">verso, nocturne</tspan></text>
+<text x="390" y="395" text-anchor="end" class="mono" font-size="10.5" fill="#71717A">plain JSON, plain CSS</text></g><g class="fu" style="animation-delay:0.39s">
+<rect x="426" y="258" width="378" height="150" rx="14" fill="#111113" stroke="#26262B"/>
+<rect x="426" y="280" width="3" height="24" rx="1.5" fill="url(#hot)"/>
+<text x="450" y="297" class="mono" font-size="11" fill="#F7941D">04</text>
+<text x="478" y="298" class="sans" font-size="17" font-weight="700" letter-spacing="-.3" fill="#F4F4F5">You stay in control</text>
+<text x="450" y="324" class="sans" font-size="13" fill="#A1A1AA">Local-first where it counts. Your data stays</text><text x="450" y="343" class="sans" font-size="13" fill="#A1A1AA">on your machine, and an AI can only draft:</text><text x="450" y="362" class="sans" font-size="13" fill="#A1A1AA">nothing is saved until you say yes.</text>
+<line x1="450" y1="376" x2="780" y2="376" stroke="#26262B"/>
+<text x="450" y="395" class="mono" font-size="10.5" fill="#71717A">in practice: <tspan fill="#FBC46A">fellowship, petrify</tspan></text>
+<text x="780" y="395" text-anchor="end" class="mono" font-size="10.5" fill="#71717A">runs fully local</text></g>
+</g>
+<rect x=".5" y=".5" width="839" height="435" rx="17.5" stroke="url(#edge)"/>
+</svg>

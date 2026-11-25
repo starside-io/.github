@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="330" viewBox="0 0 840 330" fill="none">
+<style>
+.sans{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif} .mono{font-family:'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.8}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.fu{animation:fadeUp .7s cubic-bezier(.2,.7,.2,1) backwards}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="planet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBC46A"/><stop offset=".45" stop-color="#F7941D"/><stop offset="1" stop-color="#FF2D3D"/></linearGradient>
+  <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBC46A"/><stop offset=".5" stop-color="#F7941D"/><stop offset="1" stop-color="#FF2D3D"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7941D" stop-opacity=".7"/><stop offset=".45" stop-color="#26262B"/><stop offset="1" stop-color="#FF2D3D" stop-opacity=".35"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#FFFFFF" stroke-opacity=".03"/></pattern>
+  <radialGradient id="fadeMask" cx=".75" cy=".1" r=".9"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="gm"><rect width="840" height="330" fill="url(#fadeMask)"/></mask>
+  <filter id="blur" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="60"/></filter>
+  <clipPath id="clip"><rect width="840" height="330" rx="18"/></clipPath>
+  
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="840" height="330" fill="#0E0E10"/>
+  <rect width="840" height="330" fill="url(#grid)" mask="url(#gm)"/>
+  <circle cx="840" cy="0" r="220" fill="#FF2D3D" opacity=".16" filter="url(#blur)"/>
+<circle cx="0" cy="330" r="160" fill="#F7941D" opacity=".08" filter="url(#blur)"/>
+<circle cx="272" cy="50" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 0.3s infinite"/><circle cx="450" cy="121" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 3.6s infinite"/><circle cx="180" cy="28" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 0.3s infinite"/><circle cx="76" cy="140" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 3.8s infinite"/><circle cx="530" cy="192" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.3s infinite"/><circle cx="333" cy="322" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.2s infinite"/><circle cx="112" cy="138" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.3s infinite"/><circle cx="471" cy="225" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.3s infinite"/><circle cx="537" cy="123" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.3s infinite"/><circle cx="520" cy="164" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 3.1s infinite"/><circle cx="391" cy="305" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 1.2s infinite"/><circle cx="667" cy="231" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 0.3s infinite"/><circle cx="252" cy="163" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 2.9s infinite"/><circle cx="242" cy="323" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.0s infinite"/><circle cx="139" cy="113" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 1.7s infinite"/><circle cx="808" cy="26" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 1.4s infinite"/><circle cx="294" cy="164" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 0.3s infinite"/><circle cx="79" cy="89" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 0.2s infinite"/><circle cx="589" cy="214" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 1.1s infinite"/><circle cx="324" cy="221" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 3.8s infinite"/><circle cx="299" cy="202" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 0.2s infinite"/><circle cx="645" cy="43" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 1.6s infinite"/><circle cx="770" cy="164" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 1.8s infinite"/><circle cx="462" cy="292" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 3.5s infinite"/><circle cx="234" cy="137" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 2.7s infinite"/><circle cx="320" cy="76" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 0.7s infinite"/><circle cx="195" cy="77" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 3.3s infinite"/><circle cx="153" cy="93" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 1.7s infinite"/><circle cx="310" cy="187" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 2.8s infinite"/><circle cx="433" cy="204" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 1.8s infinite"/><circle cx="732" cy="314" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 1.6s infinite"/><circle cx="331" cy="159" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 0.2s infinite"/><circle cx="57" cy="69" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 0.4s infinite"/><circle cx="505" cy="34" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 2.1s infinite"/><circle cx="797" cy="203" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 3.5s infinite"/><circle cx="516" cy="49" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 3.8s infinite"/><circle cx="506" cy="156" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 3.4s infinite"/><circle cx="834" cy="154" r="1.2" fill="#fff" style="animation:twinkle 4s ease-in-out 1.2s infinite"/><circle cx="121" cy="247" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 1.9s infinite"/><circle cx="581" cy="170" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 3.8s infinite"/><circle cx="444" cy="48" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 3.0s infinite"/><circle cx="250" cy="212" r="0.6" fill="#fff" style="animation:twinkle 4s ease-in-out 2.8s infinite"/><circle cx="219" cy="121" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 1.4s infinite"/><circle cx="187" cy="179" r="1" fill="#fff" style="animation:twinkle 4s ease-in-out 2.5s infinite"/><circle cx="515" cy="260" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 3.2s infinite"/><circle cx="687" cy="244" r="0.8" fill="#fff" style="animation:twinkle 4s ease-in-out 0.8s infinite"/>
+<g class="fu" style="animation-delay:.05s"><clipPath id="pl"><circle cx="706" cy="112" r="76"/></clipPath>
+<circle cx="706" cy="112" r="76" fill="url(#planet)"/>
+<g clip-path="url(#pl)" opacity=".35"><path d="M630.0 89.2 C660.4 66.4 683.2 96.8 713.6 74.0 S759.2 51.2 782.0 66.4 L782.0 36.0 L630.0 36.0 Z" fill="#FBC46A"/><path d="M630.0 127.2 C668.0 112.0 690.8 142.4 728.8 119.6 S766.8 104.4 782.0 119.6 L782.0 138.6 C751.6 131.0 728.8 157.6 690.8 142.4 S645.2 150.0 630.0 150.0 Z" fill="#FBC46A"/><path d="M630.0 169.0 C675.6 157.6 706.0 180.4 782.0 161.4 L782.0 188.0 L630.0 188.0 Z" fill="#FBC46A"/></g>
+<circle cx="753.1" cy="72.5" r="6.8" fill="#FB6A2C" opacity=".85"/>
+<circle cx="722.7" cy="113.5" r="7.6" fill="#FB6A2C" opacity=".85"/>
+<circle cx="706" cy="112" r="104" stroke="#F7941D" stroke-opacity=".18" stroke-dasharray="2 6" style="transform-origin:706px 112px;animation:spin 60s linear infinite"/></g>
+<g class="fu" style="animation-delay:.1s"><clipPath id="pls"><circle cx="50" cy="46" r="14"/></clipPath>
+<circle cx="50" cy="46" r="14" fill="url(#planet)"/>
+<g clip-path="url(#pls)" opacity=".35"><path d="M36.0 41.8 C41.6 37.6 45.8 43.2 51.4 39.0 S59.8 34.8 64.0 37.6 L64.0 32.0 L36.0 32.0 Z" fill="#FBC46A"/><path d="M36.0 48.8 C43.0 46.0 47.2 51.6 54.2 47.4 S61.2 44.6 64.0 47.4 L64.0 50.9 C58.4 49.5 54.2 54.4 47.2 51.6 S38.8 53.0 36.0 53.0 Z" fill="#FBC46A"/><path d="M36.0 56.5 C44.4 54.4 50.0 58.6 64.0 55.1 L64.0 60.0 L36.0 60.0 Z" fill="#FBC46A"/></g>
+<circle cx="58.7" cy="38.7" r="1.3" fill="#FB6A2C" opacity=".85"/>
+<circle cx="53.1" cy="46.3" r="1.4" fill="#FB6A2C" opacity=".85"/>
+<text x="72" y="51.5" class="sans" font-size="15" font-weight="700" letter-spacing="-.2" fill="#F4F4F5">Starside Labs</text></g>
+<g class="fu" style="animation-delay:.15s"><text x="36" y="102" class="sans" font-size="11" font-weight="700" letter-spacing="3" fill="#F7941D">OPEN SOURCE · FOR PEOPLE</text>
+<text x="36" y="142" class="sans" font-size="34" font-weight="800" letter-spacing="-1" fill="#F4F4F5">AI tools for <tspan fill="url(#hot)">people, not</tspan></text>
+<text x="36" y="180" class="sans" font-size="34" font-weight="800" letter-spacing="-1" fill="url(#hot)">platforms.</text></g>
+<g class="fu" style="animation-delay:.25s"><text x="36" y="210" class="sans" font-size="13.5" fill="#A1A1AA">Democratizing AI through accessible, open source tooling and frameworks.</text>
+<rect x="232" y="160" width="116" height="28" rx="14" fill="#F7941D" fill-opacity=".1" stroke="#F7941D" stroke-opacity=".55"/>
+<text x="290" y="178.5" text-anchor="middle" class="mono" font-size="12" fill="#FBC46A">starside.io ↗</text></g>
+<g class="fu" style="animation-delay:0.35s">
+<rect x="36" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
+<rect x="36" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
+<text x="54" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">1.2K+</text>
+<text x="54" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">ARTICLES INDEXED</text></g><g class="fu" style="animation-delay:0.43s">
+<rect x="229" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
+<rect x="229" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
+<text x="247" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">126+</text>
+<text x="247" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">DECKS GENERATED</text></g><g class="fu" style="animation-delay:0.51s">
+<rect x="422" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
+<rect x="422" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
+<text x="440" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">134+</text>
+<text x="440" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">VIDEOS PETRIFIED</text></g><g class="fu" style="animation-delay:0.59s">
+<rect x="615" y="236" width="183" height="62" rx="12" fill="#111113" stroke="#26262B"/>
+<rect x="615" y="252" width="3" height="30" rx="1.5" fill="url(#hot)"/>
+<text x="633" y="266" class="sans" font-size="22" font-weight="800" letter-spacing="-.4" fill="#F4F4F5">14K+</text>
+<text x="633" y="286" class="sans" font-size="9" font-weight="600" letter-spacing="1.4" fill="#71717A">SIGNATURES COPIED</text></g>
+</g>
+<rect x=".5" y=".5" width="839" height="329" rx="17.5" stroke="url(#edge)"/>
+</svg>
